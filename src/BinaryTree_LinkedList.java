@@ -1,5 +1,5 @@
 public class BinaryTree_LinkedList {
-    static class Node {
+     static class Node {
         int data;
         Node left;
         Node right;
@@ -11,7 +11,7 @@ public class BinaryTree_LinkedList {
         }
     }
 
-    static class BinaryTree {
+     static class BinaryTree {
         static int idx = -1;
         public static Node buildTree(int nodes[]) {
             idx++;

@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class SequentialSearch {
 
-    public int search(int []arr, int key){
+    public void search(int []arr, int key){
         Arrays.sort(arr);
         for (int i =0; i< arr.length; i++){
             if (arr[i] == key) {
@@ -10,7 +10,7 @@ public class SequentialSearch {
                 break;
             }
         }
-        return -1;
+
     }
 
     public static void main(String[] args) {
